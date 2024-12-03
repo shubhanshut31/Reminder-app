@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Reminders</h1>
+        </header>
+        <main>
+            <ul id="reminderList">
+                <li>
+                    <input type="checkbox" class="complete-checkbox">
+                    <span>Buy groceries</span>
+                </li>
+                <li>
+                    <input type="checkbox" class="complete-checkbox">
+                    <span>Call mom</span>
+                </li>
+                <li>
+                    <input type="checkbox" class="complete-checkbox">
+                    <span>Finish assignment</span>
+                </li>
+            </ul>
+            <div class="add-reminder">
+                <input type="text" id="newReminder" placeholder="Add a new reminder">
+                <button id="addReminderBtn">Add</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
